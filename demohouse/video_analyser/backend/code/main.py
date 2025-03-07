@@ -23,7 +23,7 @@ import utils
 from config import LLM_ENDPOINT, VLM_ENDPOINT, access_key, app_key
 
 from arkitect.core.component.llm import BaseChatLanguageModel
-from arkitect.types.llm.model import (
+from arkitect.core.component.llm.model import (
     ArkChatCompletionChunk,
     ArkChatParameters,
     ArkChatRequest,
